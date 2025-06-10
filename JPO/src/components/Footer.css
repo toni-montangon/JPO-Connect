@@ -1,0 +1,60 @@
+.footer {
+  width: 100vw;                /* Prend toute la largeur de la fenêtre */
+  position: fixed;             /* Fixe le footer en bas de la page */
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #2c2c2c;
+  color: white;
+  padding: 40px 60px;
+  flex-wrap: wrap;
+  box-sizing: border-box;      /* Pour inclure le padding dans la largeur */
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 0 20px;
+}
+
+.logo-section {
+  max-width: 250px;
+}
+
+.footer-logo {
+  width: 160px;
+  margin-bottom: 10px;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.social-icons img {
+  width: 24px;
+  margin: 5px;
+}
+
+.contact-button {
+  margin-top: 10px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 6px 12px;
+  cursor: pointer;
+}
