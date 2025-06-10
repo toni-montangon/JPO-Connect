@@ -37,7 +37,7 @@ const Footer = () => {
 
       <div className="footer-section contact-section">
         <h4>Informations</h4>
-        <p>8 rue d’hozier, 13002 Marseille</p>
+        <p>8 mai 1945, Martigues</p>
         <p>Tél : 04.84.89.43.69</p>
         <button className="contact-button">Contact</button>
       </div>

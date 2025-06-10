@@ -12,9 +12,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #3269e1;
+  background-color: #457be7; /* Bleu un peu plus clair */
   color: white;
-  padding: 10px 20px;
+  padding: 6px 14px; /* Hauteur réduite */
   box-sizing: border-box; /* Pour éviter que le padding déborde */
 }
 
@@ -24,8 +24,8 @@ body {
 }
 
 .logo {
-  width: 250px;
-  margin-right: 10px;
+  width: 180px; /* Logo plus petit */
+  margin-right: 8px;
 }
 
 .header-center {
@@ -37,15 +37,15 @@ body {
   font-weight: bold;
   text-decoration: underline;
   color: white;
-  font-size: 2.2em;
+  font-size: 1.6em; /* Titre plus petit */
 }
 
 .header-right a {
-  color: white;
-  font-size: 1.4em;
+  color: rgb(255, 255, 255);
+  font-size: 1.1em;
 }
 
 /* Pour éviter que le contenu passe sous le header */
 .main-content {
-  padding-top: 70px; /* Ajuste selon la hauteur de ton header */
+  padding-top: 48px; /* Ajuste selon la nouvelle hauteur du header */
 }
