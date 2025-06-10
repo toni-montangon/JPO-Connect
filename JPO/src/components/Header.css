@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100vw; /* Prend toute la largeur de la fenêtre */
+  position: fixed; /* Fixe le header en haut de la page */
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3269e1;
+  color: white;
+  padding: 10px 20px;
+  box-sizing: border-box; /* Pour éviter que le padding déborde */
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 250px;
+  margin-right: 10px;
+}
+
+.header-center {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.jpo-link {
+  font-weight: bold;
+  text-decoration: underline;
+  color: white;
+  font-size: 2.2em;
+}
+
+.header-right a {
+  color: white;
+  font-size: 1.4em;
+}
+
+/* Pour éviter que le contenu passe sous le header */
+.main-content {
+  padding-top: 70px; /* Ajuste selon la hauteur de ton header */
+}
